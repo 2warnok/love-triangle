@@ -1,0 +1,1 @@
+module.exports=function(e=[]){let f,g,h,j=0,k=[];for(i=0;i<e.length;i++)f=e[i],g=e[f-1],h=e[g-1],d=e[h-1],f==d&f!=g&f!=h&g!=h&&!1==k.includes(f)&&(k.push(f,g,h),j++);return j};
